@@ -1,0 +1,85 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family:arial;
+	font-size:15px;
+	line-height:1.5em;
+	background:#f4f4f4;
+}
+#container{
+	width:60%;
+	background:#333333;
+	margin:50px auto;
+	/*//text-align:center;*/
+	min-height: 630px;
+}
+
+header h1{
+	color:#ffffff;
+	font-size:22px;
+	text-align:center;
+	padding:15px 0 10px 10px;
+	border-bottom: 1px
+}
+#shoutbox{
+	background: #f4f4f4;
+	width:90%;
+	margin:20px auto;
+	height:400px;
+	overflow: auto;	
+}
+
+.shout{
+	list-style: none;
+	padding:8px;
+	border-bottom:1px #cccccc dotted;
+}
+
+#input input[type="submit"]{
+	padding:5px;
+	background-color:#eee;
+	margin-bottom:30px;
+	width:100%;
+	margin:10px auto;
+
+}
+
+.shout span{
+	color:#aaaaaa;
+}
+
+#input{
+  width:90%;
+  min-height:80px;
+  margin:auto;
+  padding:0;
+
+}
+
+#input input[type="text"]{
+	height:25px;
+	width:48%;
+	padding-left:3px;
+	padding-right:7.25px;
+	padding-top:3px;
+	padding-bottom:3px;
+	margin-bottom:20px;
+	border:#666666 solid 1px;
+}
+
+
+@media only screen and (max-width: 768px){
+   #input input[type="text"]{
+   	width:98%;
+   }
+}
+
+.error{
+	background: red;
+	color:white;
+	padding :5px;
+	margin-bottom:20px
+}
